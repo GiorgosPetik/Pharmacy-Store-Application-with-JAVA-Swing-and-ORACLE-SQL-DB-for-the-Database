@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="jLoginDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="2"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[300, 200]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel6" alignment="0" pref="119" max="32767" attributes="0"/>
+                      <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jUserNameLogInTxt" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jPasswordFieldTxt" alignment="0" pref="115" max="32767" attributes="0"/>
+                      <Component id="jButton2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jUserNameLogInTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPasswordFieldTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3af;&#x3c3;&#x3bf;&#x3b4;&#x3bf;&#x3c2;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x38c;&#x3bd;&#x3bf;&#x3bc;&#x3b1; &#x3a7;&#x3c1;&#x3ae;&#x3c3;&#x3c4;&#x3b7;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jUserNameLogInTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x39a;&#x3c9;&#x3b4;&#x3b9;&#x3ba;&#x3cc;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="jPasswordFieldTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPasswordFieldTxtActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="jCreateDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="2"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 600]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel3" alignment="1" min="-2" pref="119" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabel15" min="-2" pref="119" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel16" min="-2" pref="119" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" pref="119" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="119" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jFirstNameTxt" alignment="1" pref="193" max="32767" attributes="0"/>
+                              <Component id="jSpecialityBox" alignment="1" pref="193" max="32767" attributes="0"/>
+                              <Component id="jUsernameTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLastNameTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jPasswordTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jCreateBtn" alignment="1" min="-2" pref="102" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jFirstNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLastNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jUsernameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="14" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jPasswordTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="14" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jSpecialityBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="89" max="32767" attributes="0"/>
+                  <Component id="jCreateBtn" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jCreateBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x394;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b1;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCreateBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x38c;&#x3bd;&#x3bf;&#x3bc;&#x3b1;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jUsernameTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jUsernameTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x39a;&#x3c9;&#x3b4;&#x3b9;&#x3ba;&#x3cc;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jPasswordTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPasswordTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3b9;&#x3b4;&#x3b9;&#x3ba;&#x3cc;&#x3c4;&#x3b7;&#x3c4;&#x3b1;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jSpecialityBox">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="&#x391;&#x3c0;&#x3bf;&#x3b8;&#x3b7;&#x3ba;&#x3ac;&#x3c1;&#x3b9;&#x3bf;&#x3c2;"/>
+                <StringItem index="1" value="&#x3a0;&#x3c9;&#x3bb;&#x3b7;&#x3c4;&#x3ae;&#x3c2;"/>
+                <StringItem index="2" value="&#x394;&#x3b9;&#x3b1;&#x3bd;&#x3bf;&#x3bc;&#x3ad;&#x3b1;&#x3c2;"/>
+                <StringItem index="3" value="&#x39b;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ae;&#x3c2;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x38c;&#x3bd;&#x3bf;&#x3bc;&#x3b1; &#x3c7;&#x3c1;&#x3ae;&#x3c3;&#x3c4;&#x3b7;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3ce;&#x3bd;&#x3c5;&#x3bc;&#x3bf;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jFirstNameTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFirstNameTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jLastNameTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLastNameTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="(&#x3ad;&#x3c9;&#x3c2; 8 &#x3b1;&#x3c1;&#x3b9;&#x3b8;&#x3bc;&#x3bf;&#x3cd;&#x3c2;)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="(&#x3ad;&#x3c9;&#x3c2; 8 &#x3b1;&#x3c1;&#x3b9;&#x3b8;&#x3bc;&#x3bf;&#x3cd;&#x3c2;)"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jAccountMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x39b;&#x3bf;&#x3b3;&#x3b1;&#x3c1;&#x3b9;&#x3b1;&#x3c3;&#x3bc;&#x3cc;&#x3c2;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jLoginMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3af;&#x3c3;&#x3bf;&#x3b4;&#x3bf;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLoginMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jCreateAccMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x394;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCreateAccMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jLogoutMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x391;&#x3c0;&#x3bf;&#x3c3;&#x3cd;&#x3bd;&#x3b4;&#x3b5;&#x3c3;&#x3b7;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLogoutMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jStorekeeperMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x391;&#x3c0;&#x3bf;&#x3b8;&#x3b7;&#x3ba;&#x3ac;&#x3c1;&#x3b9;&#x3bf;&#x3c2;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jAddProductMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ae;&#x3ba;&#x3b7; &#x3c0;&#x3c1;&#x3bf;&#x3ca;&#x3cc;&#x3bd;&#x3c4;&#x3bf;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jAddProductMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jEditProductMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b5;&#x3be;&#x3b5;&#x3c1;&#x3b3;&#x3b1;&#x3c3;&#x3af;&#x3b1; &#x3c0;&#x3c1;&#x3bf;&#x3ca;&#x3cc;&#x3bd;&#x3c4;&#x3bf;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jEditProductMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintProductMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3bc;&#x3c6;&#x3ac;&#x3bd;&#x3b9;&#x3c3;&#x3b7; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3c9;&#x3bd; &#x3c0;&#x3c1;&#x3bf;&#x3ca;&#x3cc;&#x3bd;&#x3c4;&#x3bf;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintProductMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jDeleteProductMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae; &#x3c0;&#x3c1;&#x3bf;&#x3ca;&#x3cc;&#x3bd;&#x3c4;&#x3bf;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jDeleteProductMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jShowOrderMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a0;&#x3b1;&#x3c1;&#x3b1;&#x3b3;&#x3b3;&#x3b5;&#x3bb;&#x3b9;&#x3ce;&#x3bd;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jShowOrderMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jSellerMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c9;&#x3bb;&#x3b7;&#x3c4;&#x3ae;&#x3c2;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jClienteleCreationMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x394;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b1; &#x3a0;&#x3b5;&#x3bb;&#x3b1;&#x3c4;&#x3bf;&#x3bb;&#x3cc;&#x3b3;&#x3b9;&#x3bf;&#x3c5;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jClienteleCreationMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jOrderCreationMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x394;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b1; &#x3a0;&#x3b1;&#x3c1;&#x3b1;&#x3b3;&#x3b3;&#x3b5;&#x3bb;&#x3af;&#x3b1;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jOrderCreationMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintClienteleMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a0;&#x3b5;&#x3bb;&#x3b1;&#x3c4;&#x3bf;&#x3bb;&#x3cc;&#x3b3;&#x3b9;&#x3bf;&#x3c5;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintClienteleMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintOrderMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a0;&#x3b1;&#x3c1;&#x3b1;&#x3b3;&#x3b3;&#x3b5;&#x3bb;&#x3b9;&#x3ce;&#x3bd;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintOrderMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jCourierMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3bd;&#x3bf;&#x3bc;&#x3ad;&#x3b1;&#x3c2;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jConfirmOrderMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3b2;&#x3b5;&#x3b2;&#x3b1;&#x3af;&#x3c9;&#x3c3;&#x3b7; &#x3a0;&#x3b1;&#x3c1;&#x3ac;&#x3b4;&#x3c9;&#x3c3;&#x3b7;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jConfirmOrderMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintOrdersMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a0;&#x3b1;&#x3c1;&#x3b1;&#x3b3;&#x3b3;&#x3b5;&#x3bb;&#x3b9;&#x3ce;&#x3bd;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintOrdersMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jAcountantMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x39b;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ae;&#x3c2;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintTziroMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a4;&#x3b6;&#x3af;&#x3c1;&#x3bf;&#x3c5;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintTziroMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPrintInvoiceMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3b2;&#x3bf;&#x3bb;&#x3ae; &#x3a4;&#x3b9;&#x3bc;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3c9;&#x3bd;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPrintInvoiceMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentShown"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="402" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="308" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+</Form>
